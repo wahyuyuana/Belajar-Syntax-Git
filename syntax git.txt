@@ -1,0 +1,21 @@
+ini syntax git :
+git init
+git add -A
+git commit -m "comment"
+
+git status //melihat apakah clean projek nya
+
+git branch // utk mengecek branch apa aja
+git branch login-page // utk membuat branch dgn nama login-page
+git checkout login-page		// berpindah branch
+
+git merge login-page // posisi harus di master utk merge codingan login-page
+
+git branch -D login-page // utk menghapus cabang login-page
+
+
+
+ini syntax github :
+git remote add origin https://github.com/wahyuyuana/Belajar-Buku-Web-Rapid-App-Dev-ASP.NET-4.6.git
+git push origin master
+git pull origin master
